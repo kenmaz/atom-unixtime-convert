@@ -1,7 +1,7 @@
 {
   "name": "unixtime-convert",
   "main": "./lib/unixtime-convert",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "Convert unixtime to readable datetime format",
   "activationCommands": {
     "atom-workspace": "unixtime-convert:convert"
