@@ -2,12 +2,13 @@ module.exports = UnixtimeConvert =
 
   activate: (state) ->
     console.log 'activate'
-    atom.workspaceView.command "unixtime-convert:convert", => @convert()
+    atom.commands.add 'atom-workspace', 'unixtime-convert:convert', => @convert(false)
 
   convert: ->
     console.log 'convert'
 
-    editor = atom.workspace.activePaneItem
+    workspace = atom.workspace
+    editor = workspace.getActiveTextEditor()
     text = editor.getText()
     res = text.replace /\d{10}/g, (word) ->
       d = new Date(parseInt(word) * 1000)
