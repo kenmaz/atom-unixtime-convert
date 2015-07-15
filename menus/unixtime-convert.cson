@@ -4,6 +4,10 @@
     {
       'label': 'Convert unixtime-convert'
       'command': 'unixtime-convert:convert'
+    },
+    {
+      'label': 'Convert unixtime-convert (flat)'
+      'command': 'unixtime-convert:convert-flat'
     }
   ]
 'menu': [
@@ -15,6 +19,10 @@
         {
           'label': 'Convert'
           'command': 'unixtime-convert:convert'
+        },
+        {
+          'label': 'Convert flat'
+          'command': 'unixtime-convert:convert-flat'
         }
       ]
     ]
