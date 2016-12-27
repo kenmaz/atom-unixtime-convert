@@ -3,7 +3,7 @@ Convert unixtime to readable datetime format
 
 https://atom.io/packages/unixtime-convert
 
-![demo_movie](demo.gif)
+![demo_movie](https://github.com/kenmaz/atom-unixtime-convert/raw/master/demo.gif)
 
 Notice: This package just detects 9-digits of numbers as unixtime and convert to formatted datetime string. 
 
